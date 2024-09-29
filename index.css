@@ -1,3 +1,23 @@
 html {
     background-color: #9B4444;
 }
+
+.title h1 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-size: 50px;
+}
+
+.title p {
+    color: #EEEEEE;
+    font-family: "Ultra", serif;
+}
+
+input[type="submit"] {
+    font-family: "Ultra", serif;
+    background-color: #A3C9AA;
+    color: #37583d;
+    border-radius: 20px;
+    align-items: center;
+    font-size: 20px;
+}
