@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
-    
+    <script src="script.js" defer></script>
     <title>Secret Santa Generator</title>
 </head>
 
@@ -30,12 +30,14 @@
 </div>
 
 <div class="input">
-    <form action="">
+    <form id="santaForm">
         <label for="fname">Enter Name:</label>
         <input type="text" id="fname" name="fname" placeholder="ex: Andrea" required><br><br>
         <input type="submit" value="Submit">
     </form>
 </div>
+
+<div class="result" id="result"></div>
 
 <div class="snoopy">
     <img src="snoopy_christmas.png" alt="Snoopy in a christmas gift box" height: 100px>

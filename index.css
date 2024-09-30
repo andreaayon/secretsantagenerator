@@ -87,3 +87,10 @@ footer {
     position: relative;
     bottom: 0;
 }
+
+.result {
+    color: #A3C9AA;
+    font-family: "Ultra", serif;
+    font-size: 50px;
+    text-align: center;
+}
