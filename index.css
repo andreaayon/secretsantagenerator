@@ -11,18 +11,28 @@ html {
 .title p {
     color: #EEEEEE;
     font-family: "Ultra", serif;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 label {
     font-family: "Ultra", serif;
     color: #9B4444;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 input[type="text"] {
     font-family: "Ultra", serif;
     border-radius: 20px;
+    font-size: 25px;
+    color: #2d5835;
+    padding-left: 15px;
 }
 
 input[type="submit"] {
@@ -31,24 +41,40 @@ input[type="submit"] {
     color: #37583d;
     border-radius: 20px;
     align-items: center;
-    font-size: 20px;
+    font-size: 25px;
+    display: block;
     margin: 10px auto; 
 }
   
-.header a {
-    color: #A3C9AA;
+.header {
+    background-image: url('light_garland.png');
+}
+
+.nav a {
+    display: block;
+    margin-top: 20px; 
+    color: #4f0b0b;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Ultra", serif;
+    margin-top: 20px;
   }
   
 
-.header a:hover {
-    color: #4f0b0b;
+.nav a:hover {
+    color: #d3a620;
     text-decoration: underline;
-  }
+}
 
 .title {
     text-align: center;
 }
 
+.snoopy img {
+    width: 325px;
+    height: auto;
+}
+
+.snoopy {
+    text-align: center; /* Centers the image horizontally */
+}
