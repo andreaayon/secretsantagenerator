@@ -78,3 +78,12 @@ input[type="submit"] {
 .snoopy {
     text-align: center; /* Centers the image horizontally */
 }
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    position: relative;
+    bottom: 0;
+}

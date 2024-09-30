@@ -1,0 +1,64 @@
+html {
+    background-color: #FFF8F3;
+}
+
+.header2 a {
+    display: block;
+    margin-top: 20px; 
+    color: #132043;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Ultra", serif;
+    margin-top: 20px;
+  }
+  
+
+.header2 a:hover {
+    color: #F1B4BB;
+    text-decoration: underline;
+}
+
+.about h1 {
+    color: #374259;
+    font-family: "Ultra", serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.about p {
+    color: #545B77;
+    font-family: "Ultra", serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.credits p {
+    color: #545B77;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.family img {
+    width: 500px;
+    height: auto;
+}
+
+.family {
+    text-align: center;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px 0;
+    color: #132043;
+    position: relative;
+    bottom: 0;
+}
